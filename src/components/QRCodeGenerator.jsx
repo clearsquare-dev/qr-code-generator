@@ -4,7 +4,7 @@ import QRCode from "react-qr-code";
 export default function QRCodeGenerator() {
   const [text, setText] = useState("https://www.domo.com");
   const [containerWidth, setContainerWidth] = useState(0); // Width of the container
-  const [exportSize, setExportSize] = useState(256); // Size for export/download
+  const [exportSize, setExportSize] = useState(456); // Size for export/download
   const [bgColor, setBgColor] = useState("#FFFFFF");
   const [fgColor, setFgColor] = useState("#000000");
   const [enableMargin, setEnableMargin] = useState(true); // Toggle for margin (1 or none)
